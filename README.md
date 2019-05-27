@@ -3,12 +3,12 @@ Comparing with other biometrics, gait has advantages of being unobtrusive and di
 
 # Networks
 ## Network Architecture for Gait-extraction
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/net-seg.pdf)
+![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/net-seg.png)
 ### Network Architecture Details for Gait-extraction
 ![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/extraction-details.png)
 
 ## Network Architecture for Identification
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/identification.pdf)
+![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/net-identification.png)
 
 ### CNN+LSTM
 It is the network introduced in Fig. 4, which combines the above two networks. The whole network has to be trained from scratch.
@@ -18,7 +18,7 @@ It is also the network introduced in Fig. 4. When training, the parameters of CN
 It is also the network introduced in Fig. 4. When training, the parameters of LSTM are fixed as that in the LSTM model that has been trained independently, and the CNN and fully connection layer have to be trained from scratch.
 
 ## Network Architecture for Authentication
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/net-authen.pdf)
+![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/net-authentication.png)
 ### CNN+LSTM horizontal 
 The ‘CNN+LSTM’ network, as have been introduced in Fig. 5, using horizontally aligned data pairs as the input. The weight parameters of CNN are unfixed in the training.
 ### CNN+LSTM vertical
