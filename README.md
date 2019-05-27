@@ -29,7 +29,7 @@ The ‘CNNfix+LSTM’ network, as have been introduced in Fig. 5, using horizont
 The ‘CNNfix+LSTM’ network using vertically aligned data pairs as the input. The weight parameters of CNN are fixed in the training.
 
 ## Codes Download:
-You can download this dataset from the following link：
+You can download these codes from the following link：
 
 https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/tree/master/code
 
@@ -66,7 +66,7 @@ test data come from different subjects, we use 1022 samples
 from 20 subjects as training data and 332 samples from
 other 98 subjects for testing. 
 ## Datasets Download:
-You can download this dataset from the following link：
+You can download these datasets from the following link：
 
 
 
