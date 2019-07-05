@@ -36,7 +36,7 @@ The ‘CNNfix+LSTM’ network using vertically aligned data pairs as the input. 
 ## Codes Download:
 You can download these codes from the following link：
 
-https://sites.google.com/site/qinzoucn/
+https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/tree/master/code
 
 # Datasets
 ## Dataset for Identification & Authentication
@@ -73,6 +73,7 @@ other 98 subjects for testing.
 ## Datasets Download:
 You can download these datasets from the following link：
 
+https://sites.google.com/site/qinzoucn/
 
 
 # Set up
