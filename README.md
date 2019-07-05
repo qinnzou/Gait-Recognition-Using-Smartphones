@@ -36,7 +36,7 @@ The ‘CNNfix+LSTM’ network using vertically aligned data pairs as the input. 
 ## Codes Download:
 You can download these codes from the following link：
 
-https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/tree/master/code
+https://sites.google.com/site/qinzoucn/
 
 # Datasets
 ## Dataset for Identification & Authentication
@@ -47,7 +47,7 @@ This dataset is collected on 118 subjects. Based on the step-segmentation algori
 ### Dataset #2
 This dataset is collected on 20 subjects. We also divide the gait curve into two-step samples and interpolate them into the same length of 128. As each subject in this dataset has a much larger amount of data as compared to the that in Dataset #1, we do not make overlap between the samples. Finally, a total number of of 49,275 samples are collected, in which 44,339 samples are used for training, and the rest 4,936 for test. 
 ### Dataset #3
-This dataset is collected on the same 118 subjects as in Dataset #1. Different from Dataset #1, we divide the gait curve by using a fixed time length, instead of a step length. Exactly, we collect a sample with a time interval of 2.56 seconds. While the frequency of data collection is 50Hz, the length of each sample is also 128. Also, we make an overlap of 1.28 seconds to enlarge the dataset. A total number of 38,062 samples are collected, in which 34,196 samples are used for training, and the rest 3,866 for test.
+This dataset is collected on the same 118 subjects as in Dataset #1. Different from Dataset #1, we divide the gait curve by using a fixed time length, instead of a step length. Exactly, we collect a sample with a time interval of 2.56 seconds. While the frequency of data collection is 50Hz, the length of each sample is also 128. Also, we make an overlap of 1.28 seconds to enlarge the dataset. A total number of 29,274 samples are collected, in which 26,283 samples are used for training, and the rest 2,991 for test.
 ### Dataset #4
 This dataset is collected on 20 subjects. We also divide the gait curve in an interval of 2.56 seconds. We make no overlap between the samples. Finally, a total number of 39,314 samples are collected, in which 35,373 samples are used for training, and the rest 3,941 for test.
 ### Dataset #5
