@@ -106,6 +106,7 @@ Performance of different LSTM networks. The classification experiments are condu
 Here is the classification results using Dataset #1 and Dataset #1. 
 
 ## Results for Authentication
+![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/results-for-authentication-table.png) 
 
 
 Here shows the authentication results obtained by
