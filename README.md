@@ -74,7 +74,7 @@ other 98 subjects for testing.
 You can download these datasets from the following link：
 
 https://sites.google.com/site/qinzoucn/
-
+or https://1drv.ms/f/s!AittnGm6vRKLyh3yWS7XaXfyUNQp
 
 # Set up
 ## Requirements
