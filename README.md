@@ -117,8 +117,15 @@ ods, i.e., EigenGait, Wavelet and Fourier. Note that, the Dataset #5 and Dataset
 ![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/results-for%20authentication.png) 
 
 
-
-
+# Reference
+```
+@article{zou2019gait,
+  title={Deep learning based gait recogntion using smartphones in the wild}
+  author={Q. Zou and Y. Wang and Y. Zhao and Q. Wang and Q. Li},
+  journal={arXiv preprint arXiv:1811.00338},
+  year={2018},
+}
+```
 
 # Copy Right:
 This dataset was collected for academic research. It MUST NOT be used for commercial purposes. 
