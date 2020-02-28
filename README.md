@@ -8,12 +8,12 @@ Comparing with other biometrics, gait has advantages of being unobtrusive and di
 
 # Networks
 ## Network Architecture for Gait-extraction
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/net-seg.png)
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/net-seg.png)
 ### Network Architecture Details for Gait-extraction
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/extraction-details.png)
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/extraction-details.png)
 
 ## Network Architecture for Identification
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/net-identification.png)
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/net-identification.png)
 
 ### CNN+LSTM
 It is the network introduced in Fig. 4, which combines the above two networks. The whole network has to be trained from scratch.
@@ -23,7 +23,7 @@ It is also the network introduced in Fig. 4. When training, the parameters of CN
 It is also the network introduced in Fig. 4. When training, the parameters of LSTM are fixed as that in the LSTM model that has been trained independently, and the CNN and fully connection layer have to be trained from scratch.
 
 ## Network Architecture for Authentication
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/net-authentication.png)
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/net-authentication.png)
 ### CNN+LSTM horizontal 
 The ‘CNN+LSTM’ network, as have been introduced in Fig. 5, using horizontally aligned data pairs as the input. The weight parameters of CNN are unfixed in the training.
 ### CNN+LSTM vertical
@@ -36,11 +36,11 @@ The ‘CNNfix+LSTM’ network using vertically aligned data pairs as the input. 
 ## Codes Download:
 You can download these codes from the following link：
 
-https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/tree/master/code
+https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/tree/master/code
 
 # Datasets
 ## Dataset for Identification & Authentication
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/datasets-for-identification%26authentication.png)
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/datasets-for-identification%26authentication.png)
 A number of 118 subjects are involved in the data collection. Among them, 20 subjects collect a larger amount of data in two days, with each has thousands of samples, and 98 subjects collect a smaller amount of data in one day, with each has hundreds of samples. Each data sample contains the 3-axis accelerometer data and the 3-axis gyroscope data. The sampling rate of all sensor data is 50 Hz. According to the different evaluation purposes, we construct six datasets based on the collected data. 
 ### Dataset #1
 This dataset is collected on 118 subjects. Based on the step-segmentation algorithm introduced in Section III-B, the collected gait data can be annotated into steps. Following the findings that two-step data have a good performance in gait recognition [7], we collected gait samples by dividing the gait curve into two continuous steps. Meanwhile, we interpolate a single sample into a fixed length of 128 (using Linear Interpolation function). In order to enlarge the scale of the dataset, we make a one-step overlap between two neighboring samples for all subjects. In this way, a total number of 36,884 gait samples are collected. We use 33,104 samples for training, and the rest 3,740 for test. 
@@ -57,7 +57,7 @@ This dataset is also used for authentication. The authentication samples are con
 
 
 ## Datasets for Gait-Extraction
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/datasets-for-gait-extraction.png) 
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/datasets-for-gait-extraction.png) 
 ### Dataset #7
 We took 577 samples from 10 subjects, with
 data shape of 6×1024. 519 of them were used for training
@@ -85,7 +85,7 @@ We run on the Intel Core Xeon E5-2630@2.3GHz, 64GB RAM and two GeForce GTX TITAN
 
 # Results
 ## Results for Gait-Extraction
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/results-for-extraction2.png) 
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/results-for-extraction2.png) 
 
 Here is four examples of walking data extraction results, where blue represents walking data, green represents non-walking data, and red represents unclassified data.
 In dataset #7, our method achieved an accuracy of 90.22%,
@@ -97,16 +97,16 @@ from different subjects, our method achieved an accuracy of
 datasets that are not involved in training.
 
 ## Results for Identification
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/results-for-LSTMs.png) 
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/results-for-LSTMs.png) 
 
 Performance of different LSTM networks. The classification experiments are conducted on 118 subjects. For each group of results, the left, middle, and right bars correspond to the results of the single-layer LSTM (SL-LSTM), the bi-directional LSTM (Bi-LSTM) and the double-layer LSTM (DL-LSTM), respectively.
 
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/results-for-identification.png) 
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/results-for-identification.png) 
 
 Here is the classification results using Dataset #1 and Dataset #1. 
 
 ## Results for Authentication
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/results-for-authentication-table.png) 
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/results-for-authentication-table.png) 
 
 
 Here shows the authentication results obtained by
@@ -114,7 +114,7 @@ four deep-learning-based methods, i.e., LSTM, CNN, ‘CN-
 N+LSTM’, and ‘CNNfix+LSTM’, and three traditional meth-
 ods, i.e., EigenGait, Wavelet and Fourier. Note that, the Dataset #5 and Dataset #6 are constructed on the same 118 subjects and the same samples. The only difference is that, the input data have been aligned in two different manners. Exactly, the samples are aligned in horizontal for Dataset #5 and in vertical for Dataset #6. 
 
-![image](https://github.com/qinnzou/Deep-Learning-Based-Gait-Recognition-Using-Smartphones-in-the-Wild/blob/master/images/results-for%20authentication.png) 
+![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/results-for%20authentication.png) 
 
 
 # Reference
