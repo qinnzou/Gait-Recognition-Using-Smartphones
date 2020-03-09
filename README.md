@@ -38,12 +38,12 @@ You can download these codes from the following link：
 
 https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/tree/master/code
 
-# Datasets
+# whuGAIT Datasets
 ## Dataset for Identification & Authentication
 ![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/datasets-for-identification%26authentication.png)
 A number of 118 subjects are involved in the data collection. Among them, 20 subjects collect a larger amount of data in two days, with each has thousands of samples, and 98 subjects collect a smaller amount of data in one day, with each has hundreds of samples. Each data sample contains the 3-axis accelerometer data and the 3-axis gyroscope data. The sampling rate of all sensor data is 50 Hz. According to the different evaluation purposes, we construct six datasets based on the collected data. 
 ### Dataset #1
-This dataset is collected on 118 subjects. Based on the step-segmentation algorithm introduced in Section III-B, the collected gait data can be annotated into steps. Following the findings that two-step data have a good performance in gait recognition [7], we collected gait samples by dividing the gait curve into two continuous steps. Meanwhile, we interpolate a single sample into a fixed length of 128 (using Linear Interpolation function). In order to enlarge the scale of the dataset, we make a one-step overlap between two neighboring samples for all subjects. In this way, a total number of 36,884 gait samples are collected. We use 33,104 samples for training, and the rest 3,740 for test. 
+This dataset is collected on 118 subjects. Based on the step-segmentation algorithm introduced in Section III-B, the collected gait data can be annotated into steps. Following the findings that two-step data have a good performance in gait recognition [7], we collected gait samples by dividing the gait curve into two continuous steps. Meanwhile, we interpolate a single sample into a fixed length of 128 (using Linear Interpolation function). In order to enlarge the scale of the dataset, we make a one-step overlap between two neighboring samples for all subjects. In this way, a total number of 36,844 gait samples are collected. We use 33,104 samples for training, and the rest 3,740 for test. 
 ### Dataset #2
 This dataset is collected on 20 subjects. We also divide the gait curve into two-step samples and interpolate them into the same length of 128. As each subject in this dataset has a much larger amount of data as compared to the that in Dataset #1, we do not make overlap between the samples. Finally, a total number of 49,275 samples are collected, in which 44,339 samples are used for training, and the rest 4,936 for test. 
 ### Dataset #3
@@ -128,6 +128,6 @@ ods, i.e., EigenGait, Wavelet and Fourier. Note that, the Dataset #5 and Dataset
 ```
 
 # Copy Right:
-This dataset was collected for academic research. It MUST NOT be used for commercial purposes. 
+This dataset was collected for academic research. 
 # Contact: 
 For any problem about this dataset, please contact Dr. Qin Zou (qzou@whu.edu.cn).
