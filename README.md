@@ -120,7 +120,7 @@ ods, i.e., EigenGait, Wavelet and Fourier. Note that, the Dataset #5 and Dataset
 # Reference
 ```
 @article{zou2020gait,
-  title={Deep learning based gait recogntion using smartphones in the wild}
+  title={Deep-learning-based gait recogntion using smartphones in the wild}
   author={Q. Zou and Y. Wang and Y. Zhao and Q. Wang and Q. Li},
   journal={IEEE Transactions on Information Forensics and Security},
   year={2020},
