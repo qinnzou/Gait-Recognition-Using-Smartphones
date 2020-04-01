@@ -1,8 +1,8 @@
-# Deep Learning Based Gait Recognition Using Smartphones in the Wild
+# Deep Learning-Based Gait Recognition Using Smartphones in the Wild
 
-This is the source code of Deep learning based gait recogntion using smartphones in the wild. We provide the dataset and the pretrained model.
+This is the source code of Deep learning-based gait recogntion using smartphones in the wild. We provide the dataset and the pretrained model.
 
-Zou Q, Wang Y, Zhao Y, Wang Q and Li Q, Deep learning based gait recogntion using smartphones in the wild, IEEE Transactions on Information Forensics and Security, accepted to appear, 2020.
+Zou Q, Wang Y, Zhao Y, Wang Q and Li Q, Deep learning-based gait recogntion using smartphones in the wild, IEEE Transactions on Information Forensics and Security, accepted to appear, 2020.
 
 Comparing with other biometrics, gait has advantages of being unobtrusive and difficult to conceal. Inertial sensors such as accelerometer and gyroscope are often used to capture gait dynamics. Nowadays, these inertial sensors have commonly been integrated in smartphones and widely used by average person, which makes it very convenient and inexpensive to collect gait data. In this paper, we study gait recognition using smartphones in the wild. Unlike traditional methods that often require the person to walk along a specified road and/or at a normal walking speed, the proposed method collects inertial gait data under a condition of unconstraint without knowing when, where, and how the user walks. To obtain a high performance of person identification and authentication, deep-learning techniques are presented to learn and model the gait biometrics from the walking data. Specifically, a hybrid deep neural network is proposed for robust gait feature representation, where features in the space domain and in the time domain are successively abstracted by a convolutional neural network and a recurrent neural network. In the experiments, two datasets collected by smartphones on a total of 118 subjects are used for evaluations. Experiments show that the proposed method achieves over 93.5% and 93.7% accuracy in person identification and authentication, respectively.
 
@@ -120,7 +120,7 @@ ods, i.e., EigenGait, Wavelet and Fourier. Note that, the Dataset #5 and Dataset
 # Reference
 ```
 @article{zou2020gait,
-  title={Deep-learning-based gait recogntion using smartphones in the wild}
+  title={Deep learning-based gait recogntion using smartphones in the wild}
   author={Q. Zou and Y. Wang and Y. Zhao and Q. Wang and Q. Li},
   journal={IEEE Transactions on Information Forensics and Security},
   year={2020},
