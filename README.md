@@ -82,6 +82,10 @@ https://pan.baidu.com/s/18mYLZspZT39G7TyOuQC5Aw
 
 Passcodes：mfz0 
 
+For the classificaiton and authentication datasets constructed based on OU-ISIR used in our paper, we shared it at
+Link：https://pan.baidu.com/s/1Q1MVM6Y53yr6WicG0cw8Vw 
+Passcodes：v1ls
+
 
 # Set up
 ## Requirements
