@@ -73,17 +73,17 @@ other 98 subjects for testing.
 ## Datasets Download:
 You can download these datasets from the following link：
 
-https://sites.google.com/site/qinzoucn/
-or https://1drv.ms/f/s!AittnGm6vRKLyh3yWS7XaXfyUNQp
+https://drive.google.com/drive/folders/1KOm-zROeOZH3e2tqYUpHAvIaBZSJGFm_?usp=sharing  
 
-You can also download the datasets from BaiduYun: 
+or https://1drv.ms/f/s!AittnGm6vRKLyh3yWS7XaXfyUNQp  
 
-https://pan.baidu.com/s/18mYLZspZT39G7TyOuQC5Aw 
+or BaiduYun:  
+https://pan.baidu.com/s/18mYLZspZT39G7TyOuQC5Aw   
 
-Passcodes：mfz0 
+Passcodes：mfz0   
 
-For the classificaiton and authentication datasets constructed based on OU-ISIR used in our paper, we shared it at
-Link：https://pan.baidu.com/s/1Q1MVM6Y53yr6WicG0cw8Vw 
+For the classificaiton and authentication datasets constructed based on OU-ISIR used in our paper, we shared it at  
+Link：https://pan.baidu.com/s/1Q1MVM6Y53yr6WicG0cw8Vw   
 Passcodes：v1ls
 
 
