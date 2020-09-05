@@ -2,7 +2,8 @@
 
 This is the source code of Deep learning-based gait recogntion using smartphones in the wild. We provide the dataset and the pretrained model.
 
-Zou Q, Wang Y, Zhao Y, Wang Q and Li Q, Deep learning-based gait recogntion using smartphones in the wild, IEEE Transactions on Information Forensics and Security, accepted to appear, 2020.
+Zou Q, Wang Y, Zhao Y, Wang Q and Li Q, Deep learning-based gait recogntion using smartphones in the wild, IEEE Transactions on Information Forensics and Security, vol. 15,
+no. 1, pp. 3197-3212, 2020.
 
 Comparing with other biometrics, gait has advantages of being unobtrusive and difficult to conceal. Inertial sensors such as accelerometer and gyroscope are often used to capture gait dynamics. Nowadays, these inertial sensors have commonly been integrated in smartphones and widely used by average person, which makes it very convenient and inexpensive to collect gait data. In this paper, we study gait recognition using smartphones in the wild. Unlike traditional methods that often require the person to walk along a specified road and/or at a normal walking speed, the proposed method collects inertial gait data under a condition of unconstraint without knowing when, where, and how the user walks. To obtain a high performance of person identification and authentication, deep-learning techniques are presented to learn and model the gait biometrics from the walking data. Specifically, a hybrid deep neural network is proposed for robust gait feature representation, where features in the space domain and in the time domain are successively abstracted by a convolutional neural network and a recurrent neural network. In the experiments, two datasets collected by smartphones on a total of 118 subjects are used for evaluations. Experiments show that the proposed method achieves over 93.5% and 93.7% accuracy in person identification and authentication, respectively.
 
@@ -79,7 +80,6 @@ or https://1drv.ms/f/s!AittnGm6vRKLyh3yWS7XaXfyUNQp
 
 or BaiduYun:  
 https://pan.baidu.com/s/18mYLZspZT39G7TyOuQC5Aw   
-
 Passcodes：mfz0   
 
 For the classificaiton and authentication datasets constructed based on OU-ISIR used in our paper, we shared it at  
@@ -134,6 +134,9 @@ ods, i.e., EigenGait, Wavelet and Fourier. Note that, the Dataset #5 and Dataset
   title={Deep learning-based gait recogntion using smartphones in the wild}
   author={Q. Zou and Y. Wang and Y. Zhao and Q. Wang and Q. Li},
   journal={IEEE Transactions on Information Forensics and Security},
+  volume={15},
+  number={1},
+  pages={3197--3212},
   year={2020},
 }
 ```
