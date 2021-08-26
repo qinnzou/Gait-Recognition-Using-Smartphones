@@ -119,7 +119,6 @@ Here is the classification results using Dataset #1 and Dataset #1.
 ## Results for Authentication
 ![image](https://github.com/qinnzou/Gait-Recognition-Using-Smartphones/blob/master/images/results-for-authentication-table.png) 
 
-
 Here shows the authentication results obtained by
 four deep-learning-based methods, i.e., LSTM, CNN, ‘CN-
 N+LSTM’, and ‘CNNfix+LSTM’, and three traditional meth-
