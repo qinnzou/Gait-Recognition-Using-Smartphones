@@ -87,6 +87,10 @@ Link：https://pan.baidu.com/s/1Q1MVM6Y53yr6WicG0cw8Vw
 Passcodes：v1ls
 
 
+We also provide the orignal raw data of the dataset (98 subjects and 20 subjects) :
+link：https://pan.baidu.com/s/1VN77r819dhX0bay-0MJucQ 
+code：uhu2
+
 # Set up
 ## Requirements
 PyTorch 0.4.0  
